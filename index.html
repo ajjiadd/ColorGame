@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Game</title>
+</head>
+<body>
+    <div class="container border header">
+        <h1 class="text-color">Guess the Color!<br><span class="displayColorCode"></span></h1>
+    </div>
+    <div class="container sub-header ">
+        <button id="reset">New Colors</button>
+        <span class="message"></span>
+        <div>
+            <button id="easy">Easy</button>
+            <button id="hard" class="selected">Hard</button>
+        </div>
+    </div>
+    
+    <div class="" id="container2">
+        <h3>Select the Color: </h3>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+
+    <script src="main.js"></script>
+    <script>
+        document.getElementById("easy").addEventListener("click", function(){
+            console.log(this);
+        });
+    </script>
+</body>
+</html>
